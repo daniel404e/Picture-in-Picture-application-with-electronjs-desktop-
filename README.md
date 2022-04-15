@@ -3,5 +3,4 @@
 
 To initilize all the dependencies use:
 
-
-` npm i `
+>` npm i `
