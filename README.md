@@ -3,4 +3,15 @@
 
 To initilize all the dependencies use:
 
->` npm i `
+> `npm i `
+
+To Run the program use:
+
+> `npm start`
+
+To create the installer  use:
+
+> `npm run build-installer`
+the installer and the application wll be created in the dist folder.
+
+
