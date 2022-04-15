@@ -1,0 +1,236 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif;
+  margin: auto;
+ 
+  padding: 0.5rem;
+   
+}
+
+
+
+
+
+.dropbtn {
+   
+  color: rgb(0, 0, 0);
+  
+  size: 100%;
+
+   
+   
+  background-color: #4CAF50  ;
+  border: none;
+  
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+   
+   
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 0;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {       background-color: #4CAF50; }
+
+ 
+
+.dropbtn:hover {
+  opacity: 0.4;
+  background-color: #7ec581;
+}
+
+ 
+ 
+
+
+.summaclass{
+
+  background: #4CAF50;
+  border-radius: 5px;
+
+
+}
+
+ 
+
+.buttonqz {
+  background-color: rgb(197, 84, 84); /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+
+.buttonqz:hover{
+
+  opacity: 0.7;
+  background-color: rgb(255, 0, 0); 
+
+
+
+}
+
+
+.buttonqmz {
+  background-color: rgb(201, 201, 201); /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.buttonqmz:hover{
+
+  opacity: 0.4;
+  background-color: rgb(255, 255, 255); 
+
+
+
+}
+
+
+
+
+.buttonqmzt {
+  background-color: #4CAF50  ;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 9px;
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.buttonqmzt:hover{
+
+  opacity: 0.4;
+  background-color: #7ec581;
+
+
+
+}
+
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.popup .popuptext2 {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext2::after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+.popup .show2{
+  visibility: visible;
+  -webkit-animation: fadeIn 4s;
+  animation: fadeIn 4s;
+}
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Picture-In-Picture converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css" />
+    
+  </head>
+  <body style="-webkit-app-region: drag" >
+    <button id="quitz" class="buttonqz" style="z-index: 1; position: absolute; display:block; margin-right: 0; margin-left: 80%; -webkit-app-region: no-drag; border-radius: 25%;"><i class="fa-solid fa-x fa-xl"></i></button>
+    <button id="minz" class="buttonqmz popup" onmouseenter="myFunction4()" onmouseleave="myFunction5()" style="z-index: 1; position: absolute; display:block; margin-right: 0; margin-left: 44%; -webkit-app-region: no-drag; border-radius: 15%;"><i class="fa-solid fa-compress fa-xl"></i><span class="popuptext2" id="myPopup2">Minimize </span></button>
+    
+   
+    <video id="vidm" style="z-index: -1; "></video>
+    <p id="noofscreens" style="margin-right: 35%;">total screens  </p>
+    
+    <div style="margin-top: 1%;">
+      
+    
+     
+  
+    
+  
+      <div class="dropdown" style=" margin-left: 30%; -webkit-app-region: no-drag">
+        <button id="swind" class="dropbtn" style="border-radius:  5%;" >Select Window</button>  
+        <button id="reloadn" class="buttonqmzt popup" onmouseenter="myFunction2()" onmouseleave="myFunction3()" style="  display:inline-flexbox; margin-left: 10px;  -webkit-app-region: no-drag;  border-radius: 15%;"><i class="fa-solid fa-arrows-rotate fa-xl"></i><span class="popuptext" id="myPopup">Reload Screens </span></button>
+       
+          
+          
+        <div class="dropdown-content"   id="drptop">
+         
+       
+         
+        </div>
+        
+      </div>
+      
+    </div>
+
+
+    <script   src="render.js"></script>
+  </body>
+</html>
