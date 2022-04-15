@@ -32,6 +32,8 @@ on selecting on a screen it displays the screen
 
 
 The application only reads the number of screens and their "source ids" on the start of the program so if new windows/screens are added after the start of the program then you must click  on the refresh buttton adjacent to the select window button.
+![image](https://user-images.githubusercontent.com/83254980/163524662-36aaedec-69c3-474f-9f76-b84f62fdf670.png)
+
 
 
 
@@ -48,6 +50,13 @@ the button on the middle top is for minimizing and the top-right for quiting.
 
 the window can be resized to any shape/size needed.
 ![image](https://user-images.githubusercontent.com/83254980/163524251-f0b0ac39-b7a0-4ea8-94e6-4fabbba2b5ad.png)
+
+
+
+
+the window always stays atop of other programs/windows so you dont have to worry about burying the  screen underneath and can also share media so you can watch movies/streams while working on your projects.
+![image](https://user-images.githubusercontent.com/83254980/163525088-f5e15303-01cc-4dc0-b7ce-fa785f63c23c.png)
+
 
 
 
