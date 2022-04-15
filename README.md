@@ -56,6 +56,7 @@ the window can be resized to any shape/size needed.
 
 the window always stays atop of other programs/windows so you dont have to worry about burying the  screen underneath and can also share media so you can watch movies/streams while working on your projects.
 ![image](https://user-images.githubusercontent.com/83254980/163525088-f5e15303-01cc-4dc0-b7ce-fa785f63c23c.png)
+the window can also be fullscreen by double clicking on the video.
 
 
 
