@@ -13,6 +13,8 @@ To create the installer  use:
 
 > `npm run build-installer`
 the installer and the application wll be created in the dist folder.
+![image](https://user-images.githubusercontent.com/83254980/178621697-57e19d7b-85ad-4006-8d71-4e19df0c562d.png)
+
 
 
 
